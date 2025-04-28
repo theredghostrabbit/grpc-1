@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "com.example.crm.grpc";
+option java_multiple_files = true;
+
+service ClienteService {
+  rpc RegistrarCliente (ClienteRequest) returns (ClienteResponse);
+  rpc BuscarCliente (BuscarClienteRequest) returns (ClienteResponse);
+  rpc EliminarCliente (EliminarClienteRequest) returns (ClienteResponse);
+  rpc ListarClientes (Empty) returns (stream ClienteResponse);
+}
+
+message ClienteRequest {
+  string nombre = 1;
+  string correo = 2;
+  string telefono = 3;
+}
+
+message BuscarClienteRequest {
+  string correo = 1;
+}
+
+message EliminarClienteRequest {
+  string correo = 1;
+}
+
+message ClienteResponse {
+  string mensaje = 1;
+  bool registrado = 2;
+}
+
+message Empty {}
