@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<crm-grpc-ui>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.crm.grpc.Application",
+            "projectName": "crm-grpc-ui",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

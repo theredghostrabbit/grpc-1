@@ -1,0 +1,13 @@
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceBlockingStub.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceStub.class
+com\example\crm\grpc\ClienteServiceGrpc.class
+com\example\crm\grpc\ClienteServiceGrpc$MethodHandlers.class
+com\example\crm\grpc\ClienteServiceGrpc$1.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceImplBase.class
+com\example\crm\grpc\ClienteServiceGrpc$3.class
+com\example\crm\grpc\ClienteServiceGrpc$AsyncService.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceBaseDescriptorSupplier.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceFutureStub.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceMethodDescriptorSupplier.class
+com\example\crm\grpc\ClienteServiceGrpc$2.class
+com\example\crm\grpc\ClienteServiceGrpc$ClienteServiceFileDescriptorSupplier.class
